@@ -34,3 +34,7 @@ variable "database_subnet_cidr" {
 
   default = ["10.0.30.0/24", "10.0.40.0/24"]
 }
+
+variable "is_peering_required" {
+  default = true
+}

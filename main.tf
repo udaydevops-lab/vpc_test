@@ -12,4 +12,7 @@ module "roboshop" {
 
     # Database subnet 
     database_subnet_cidr = var.database_subnet_cidr
+
+    #peering
+    is_peering_required = var.is_peering_required
 }
